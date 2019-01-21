@@ -282,6 +282,7 @@ h1,
 
 h2,
 .h2 {
+	font-family: 'Gilroy-Extrabold';
 	font-size: 28px;
 	line-height: 1;
 }
@@ -311,11 +312,11 @@ h6,
 }
 
 p {
-	font-family: 'Droid Serif', serif;
+	font-family: 'Gilroy-Regular', sans-serif;
 	color: #9b9b9b;
 	font-size: 18px;
 	font-weight: 400;
-	line-height: 22px;
+	line-height: 23px;
 }
 
 .lead {
@@ -1524,17 +1525,16 @@ ul.dot-list li i {
 \*------------------------------------*/
 .heading .subheading {
 	color: #616161;
-	font-family: 'Droid Serif', serif;
-	font-size: 18px;
+	font-family: 'Gilroy-Extrabold';
+	font-size: 22px;
 	font-weight: 700;
-	font-style: italic;
 	line-height: 1;
 	margin-bottom: 19px;
 }
 
 .heading h2 {
 	color: #222;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-ExtraBold';
 	font-size: 40px;
 	font-weight: 600;
 	line-height: 53px;
@@ -4270,7 +4270,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 }
 
 .slider .slide--headline {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-ExtraBold';
 	font-weight: 700;
 	line-height: 76px;
 	white-space: nowrap;
@@ -4280,17 +4280,15 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .slider .slide-content p {
 	color: #474747;
-	font-family: 'Lora', sans-serif;
+	font-family: 'Gilroy-Regular',;
 	font-size: 17px;
-	font-style: italic;
 	line-height: 26px;
 }
 
 .slider .slide--bio {
 	color: #474747;
 	font-family: 'Lora', sans-serif;
-	font-style: italic;
-	line-height: 26px;
+	line-height: 28px;
 }
 
 .slider .btn-secondary {
@@ -4825,7 +4823,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 }
 
 .about-1 .about-content p {
-	color: #9b9b9b;
+	color: #555861;
 	font-size: 18px;
 	font-family: 'Gilroy-Regular';
 	line-height: 23px;
