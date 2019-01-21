@@ -287,32 +287,16 @@ h6,
 .h5,
 .h6
 
-	@font-face {
-	font-family: "Gilroy-Regular";
-	src: url("assets/css/fonts/388089_0_0.eot");
-	src:
-	url("css/fonts/388089_0_0.woff") format("woff"),
-	url("css/fonts/388089_0_0.ttf") format("truetype"),
-	url("css/fonts/388089_0_0.woff2") format("woff2"),
-	}
+@import url("//hello.myfonts.net/count/388089");
 
-	@font-face {
-	font-family: "Gilroy-Light";
-	src: url("assets/css/fonts/388089_1_0.eot");
-	src:
-	url("css/fonts/388089_1_0.woff") format("woff"),
-	url("css/fonts/388089_1_0.ttf") format("truetype"),
-	url("css/fonts/388089_1_0.woff2") format("woff2"),
-	}
 
-	@font-face {
-	font-family: "Gilroy-ExtraBold";
-	src: url("assets/css/fonts/388089_2_0.eot");
-	src:
-	url("css/fonts/388089_2_0.woff") format("woff"),
-	url("css/fonts/388089_2_0.ttf") format("truetype"),
-	url("css/fonts/388089_2_0.woff2") format("woff2"),
-	}
+@font-face {font-family: 'Gilroy-Regular';src: url('assets/css/fonts/388089_0_0.eot');src: url('webfonts/388089_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/388089_0_0.woff2') format('woff2'),url('webfonts/388089_0_0.woff') format('woff'),url('webfonts/388089_0_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Gilroy-Light';src: url('assets/css/fonts/388089_1_0.eot');src: url('webfonts/388089_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/388089_1_0.woff2') format('woff2'),url('webfonts/388089_1_0.woff') format('woff'),url('webfonts/388089_1_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Gilroy-ExtraBold';src: url('assets/css/fonts/388089_2_0.eot');src: url('webfonts/388089_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/388089_2_0.woff2') format('woff2'),url('webfonts/388089_2_0.woff') format('woff'),url('webfonts/388089_2_0.ttf') format('truetype');}
 
 h1,
 .h1 {
