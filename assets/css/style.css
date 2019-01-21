@@ -10179,9 +10179,9 @@ td.cart-product-quantity .product-quantity i {
 }
 
 .contact .contact-bio {
-	color: #616161;
+	font-family:'Gilroy-Regular'
+	color: #black;
 	font-size: 16px;
-	font-style: italic;
 	line-height: 23px;
 	margin-bottom: 47px;
 }
