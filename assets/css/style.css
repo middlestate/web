@@ -285,12 +285,34 @@ h6,
 .h3,
 .h4,
 .h5,
-.h6 {
-	font-family: 'Gilroy-ExtraBold';
-	font-weight: normal;
-	font-style: normal;
-}
-}
+.h6
+
+	@font-face {
+	font-family: "Gilroy-Regular";
+	src: url("assets/css/fonts/388089_0_0.eot");
+	src:
+	url("css/fonts/388089_0_0.woff") format("woff"),
+	url("css/fonts/388089_0_0.ttf") format("truetype"),
+	url("css/fonts/388089_0_0.woff2") format("woff2"),
+	}
+
+	@font-face {
+	font-family: "Gilroy-Light";
+	src: url("assets/css/fonts/388089_1_0.eot");
+	src:
+	url("css/fonts/388089_1_0.woff") format("woff"),
+	url("css/fonts/388089_1_0.ttf") format("truetype"),
+	url("css/fonts/388089_1_0.woff2") format("woff2"),
+	}
+
+	@font-face {
+	font-family: "Gilroy-ExtraBold";
+	src: url("assets/css/fonts/388089_2_0.eot");
+	src:
+	url("css/fonts/388089_2_0.woff") format("woff"),
+	url("css/fonts/388089_2_0.ttf") format("truetype"),
+	url("css/fonts/388089_2_0.woff2") format("woff2"),
+	}
 
 h1,
 .h1 {
@@ -1644,7 +1666,7 @@ ul.dot-list li i {
 	content: "";
 	width: 46px;
 	height: 2px;
-	background-color: #282828;
+	background-color: #289BD6;
 	left: 0;
 	bottom: 0;
 }
