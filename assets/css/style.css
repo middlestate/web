@@ -282,7 +282,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-	font-family: Gilroy-ExtraBold;
+	font-family: 'Gilroy-ExtraBold';
 	font-weight: normal;
 	font-style: normal;
 }
@@ -297,14 +297,14 @@ h1,
 h2,
 .h2 {
 	font-size: 28px;
-	font-family: Gilroy-ExtraBold;
+	font-family: 'Gilroy-ExtraBold';
 	font-weight: normal;
 	font-style: normal;
 }
 
 h3,
 .h3 {
-	font-size: 35px;
+	font-size: 65px;
 	line-height: 1;
 }
 
@@ -1745,7 +1745,7 @@ ul.dot-list li i {
 .heading-12 h2 {
 	font-size: 34px;
 	color: #222;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	margin-bottom: 10px;
 }
 
@@ -4286,8 +4286,8 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 }
 
 .slider .slide--headline {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 700;
+	font-family: 'Gilroy-ExtraBold', sans-serif;
+	font-weight: normal;
 	line-height: 76px;
 	white-space: nowrap;
 	text-transform: capitalize;
