@@ -163,7 +163,7 @@ html {
 
 body {
 	background-color: #ffffff;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy-ExtraBold', serif;
 	font-size: 16px;
 	font-weight: 400;
 	color: #9b9b9b;
@@ -287,16 +287,6 @@ h6,
 .h5,
 .h6
 
-@import url("//hello.myfonts.net/count/388089");
-
-
-@font-face {font-family: 'Gilroy-Regular';src: url('assets/css/fonts/388089_0_0.eot');src: url('assets/css/fonts/388089_0_0.ttf') format('truetype'),url('assets/css/fonts/388089_0_0.woff2') format('woff2'),url('assets/css/fonts/388089_0_0.woff') format('woff'),;}
-
-
-@font-face {font-family: 'Gilroy-Light';src: url('assets/css/fonts/388089_1_0.eot');src: url('webfonts/388089_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/388089_1_0.woff2') format('woff2'),url('webfonts/388089_1_0.woff') format('woff'),url('webfonts/388089_1_0.ttf') format('truetype');}
-
-
-@font-face {font-family: 'Gilroy-ExtraBold';src: url('assets/css/fonts/388089_2_0.eot');src: url('assets/css/fonts/388089_2_0.ttf') format('truetype'),url('assets/css/fonts/388089_2_0.woff2') format('woff2'),url('assets/css/fonts/388089_2_0.woff') format('woff'),;}
 
 h1,
 .h1 {
@@ -4860,9 +4850,8 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 }
 
 .about-1 .about-content p {
-	color: #9b9b9b;
+	color: #black;
 	font-size: 16px;
-	font-style: italic;
 	line-height: 23px;
 	margin-bottom: 27px;
 }
@@ -4994,7 +4983,6 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 .about-4 .about-content p {
 	margin-bottom: 10px;
 	font-size: 16px;
-	font-style: italic;
 	line-height: 23px;
 }
 
@@ -6040,7 +6028,6 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 	color: #9b9b9b;
 	font-family: 'Gilroy Extra-Bold', serif;
 	font-size: 16px;
-	font-style: italic;
 	line-height: 23px;
 	margin-bottom: 24px;
 }
