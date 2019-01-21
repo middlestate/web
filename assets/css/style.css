@@ -1,11 +1,9 @@
 
 /*-----------------------------------------------------------------------------------
 
-	Theme Name: Celia
-	Theme URI: http://themeforest.net/user/zytheme
-	Description: Celia is a pixel perfect creative multi purpose html5 tempalte  based on designed with great attention to details, flexibility and performance. It is ultra professional, smooth and sleek, with a clean modern layout.
-	Author: zytheme
-	Author URI: http://themeforest.net/user/zytheme
+	Theme Name: Middlestate
+	Description: Middlestate custom html template.
+	Author: middlestate
 	Version: 1.0
 
 -----------------------------------------------------------------------------------*/
@@ -34,7 +32,7 @@
  19. Backtop
  20. Social
  21. Loading
- 22. Header
+ Hea Header
  23. Menu
  24. Hero
  25. shortcode
@@ -173,18 +171,18 @@ body {
 	margin: 0;
 }
 .Gilroy-Regular {
-	font-family: Gilroy-Regular;
+	font-family: 'Gilroy-Regular';
 	font-weight: normal;
 	font-style: normal;
 }
 .Gilroy-Light {
-	font-family: Gilroy-Light;
+	font-family: 'Gilroy-Light';
 	font-weight: normal;
 	font-style: normal;
 }
 .Gilroy-ExtraBold {
-	font-family: Gilroy-ExtraBold;
-	font-weight: normal;
+	font-family: 'Gilroy-ExtraBold';
+	font-weight: 'normal';
 	font-style: normal;
 }
 
@@ -259,6 +257,12 @@ section {
 	overflow: hidden;
 }
 
+section.heading2{
+padding-top: 100px;
+padding-bottom: 0px;
+overflow: hidden;
+}
+
 @media only screen and (max-width: 767px) {
 
 section {
@@ -292,6 +296,7 @@ h1,
 .h1 {
 	font-size: 32px;
 	line-height: 1;
+	color:black;
 }
 
 h2,
@@ -324,13 +329,14 @@ h6,
 .h6 {
 	font-size: 16px;
 	line-height: 1;
+	color: black;
 }
 
 p {
-	font-family: 'Gilroy-Regular', serif;
-	color: #9b9b9b;
+	font-family:'Gilroy-Regular';
+	color: #222222;
 	font-size: 16px;
-	font-weight: 400;
+	font-weight: normal;
 	line-height: 22px;
 }
 
@@ -604,7 +610,7 @@ ul.dot-list li i {
 }
 
 .text-body {
-	color: #9b9b9b;
+	color: #222222;
 }
 
 /* Postion Helpers */
@@ -1276,7 +1282,7 @@ ul.dot-list li i {
 .btn {
 	position: relative;
 	z-index: 2;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-weight: 700;
 	font-size: 13px;
 	line-height: 50px;
@@ -1397,7 +1403,7 @@ ul.dot-list li i {
 \*------------------------------------*/
 .form-control {
 	color: #474747;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 13px;
 	line-height: 49px;
 	text-transform: uppercase;
@@ -1543,35 +1549,32 @@ ul.dot-list li i {
 	font-family: 'Gilroy Extra-Bold', serif;
 	font-size: 18px;
 	font-weight: 700;
-	font-style: italic;
 	line-height: 1;
 	margin-bottom: 19px;
 }
 
 .heading h2 {
-	color: #222;
+	color: #222222;
 	font-family: 'Gilroy ExtraBold';
 	font-size: 40px;
-	font-weight: 800;
+	font-weight: 'normal';
 	line-height: 53px;
 	margin-bottom: 0;
-	text-transform: capitalize;
 }
 
 .heading p {
-	color: #616161;
-	font-family: 'Gilroy Extra-Bold', serif;
+	color: #222222;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 16px;
-	font-style: italic;
 	line-height: 23px;
 	margin-bottom: 0;
 }
 
 .heading .more {
 	color: #333;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-ExtraBold';
 	font-weight: 700;
-	font-size: 13px;
+	font-size: 15px;
 	line-height: 24px;
 	text-transform: capitalize;
 	font-style: normal;
@@ -1632,6 +1635,8 @@ ul.dot-list li i {
 .heading-2 h2 {
 	position: relative;
 	padding-bottom: 8px;
+	font-family: "Gilroy-ExtraBold";
+	color: black;
 }
 
 .heading-2 h2:before {
@@ -1655,8 +1660,10 @@ ul.dot-list li i {
 }
 
 .heading-2 .subheading {
-	font-size: 13px;
+	font-size: 18px;
 	margin-bottom: 10px;
+	font-family: "Gilroy-ExtraBold";
+	color: gray;
 }
 
 /* Heading #3 */
@@ -1667,10 +1674,15 @@ ul.dot-list li i {
 /* Heading #4 */
 .heading-4 h2 {
 	margin-bottom: 10px;
+	font-family: "Gilroy-Extrabold";
+	color:black;
+
 }
 
 .heading-4 .subheading {
 	position: relative;
+	font-family: "Gilroy-Extrabold";
+	color:gray;
 	padding-bottom: 16px;
 	margin-bottom: 2px;
 }
@@ -1732,7 +1744,7 @@ ul.dot-list li i {
 
 /* Heading #11 */
 .heading-11 p {
-	color: #616161;
+	color: #222222;
 	font-family: 'Gilroy Extra-Bold', serif;
 	font-size: 15px;
 	font-weight: 700;
@@ -1837,8 +1849,9 @@ ul.dot-list li i {
 }
 
 .page-title .title .title-content h1 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-ExtraRegular', sans-serif;
 	font-size: 55px;
+	color: black;
 	line-height: 50px;
 	margin-bottom: 10px;
 	white-space: nowrap;
@@ -1848,8 +1861,8 @@ ul.dot-list li i {
 .page-title .title .title-content .breadcrumb {
 	padding: 0;
 	background-color: transparent;
-	font-family: 'Poppins', sans-serif;
-	font-size: 13px;
+	font-family: 'Gilroy-ExtraBold';
+	font-size: 15px;
 	font-weight: 700;
 	line-height: 24px;
 	text-transform: uppercase;
@@ -1857,7 +1870,7 @@ ul.dot-list li i {
 
 .page-title .title .title-content .breadcrumb a,
 .breadcrumb > li + li:before {
-	color: #333333;
+	color: #222222;
 }
 
 .page-title .title .title-content .breadcrumb .active {
@@ -2014,8 +2027,8 @@ ul.dot-list li i {
 
 .pagination > li > a,
 .pagination > li > span {
-	color: #9b9b9b;
-	font-family: 'Poppins', sans-serif;
+	color: #222222;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 13px;
 	line-height: 24px;
 	border: none;
@@ -2079,7 +2092,7 @@ ul.dot-list li i {
 
 .alerts .alert-content h4 {
 	color: #4D9ED7;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	font-size: 15px;
 	line-height: 32px;
 	text-transform: uppercase;
@@ -2292,7 +2305,7 @@ ul.dot-list li i {
 }
 
 .cart-box .cart-overview p {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 12px;
 	line-height: 20px;
 	font-weight: 400;
@@ -2308,7 +2321,7 @@ ul.dot-list li i {
 .cart-total .total-desc h5,
 .cart-total .total-price h5 {
 	color: #aaaaaa;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 16px;
 	line-height: 1;
 	text-transform: uppercase;
@@ -2331,7 +2344,7 @@ ul.dot-list li i {
 	background-color: #222222;
 	border: none;
 	color: #ffffff;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -2344,7 +2357,7 @@ ul.dot-list li i {
 }
 
 .cart-box .cart-control .btn.btn-primary {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -2497,7 +2510,7 @@ ul.dot-list li i {
 	text-transform: capitalize;
 	margin-bottom: 0;
 	color: #fff;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	height: 100%;
 	padding: 0;
 	-moz-border-radius: 0;
@@ -2559,7 +2572,7 @@ ul.dot-list li i {
 /* Module Menu Popup */
 .module-menu-popup .menu-icon {
 	color: #333333;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-weight: 700;
 	font-size: 13px;
 	line-height: 20px;
@@ -2631,7 +2644,7 @@ ul.dot-list li i {
 
 .module-menu-box .menu-box .menu-items a {
 	color: #ffffff;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-weight: 700;
 	font-size: 22px;
 	line-height: 1;
@@ -2664,7 +2677,7 @@ ul.dot-list li i {
 	background-color: #4D9ED7;
 	display: inline-block;
 	color: #ffffff;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 30px;
@@ -2846,7 +2859,7 @@ ul.dot-list li i {
 
 /* Header #2 */
 .module-social_2 {
-	line-height: 100px;
+	line-height: 50px;
 	margin-left: 10px;
 }
 
@@ -3038,7 +3051,7 @@ ul.dot-list li i {
 
 .hamburger-panel .list-links a {
 	font-size: 13px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #333333;
@@ -3489,7 +3502,7 @@ li.open a,
 	display: inline-block;
 	color: #222222;
 	font-size: 13px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -3623,7 +3636,7 @@ li.open a,
 
 .navbar-nav li a {
 	font-size: 13px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #333333;
@@ -4276,7 +4289,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 }
 
 .slider .slide-content h2 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 65px;
 	line-height: 1;
 	margin-bottom: 20px;
@@ -4981,7 +4994,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .about-4 .about-content a {
 	color: #333333;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-weight: 700;
 	font-size: 13px;
 	line-height: 24px;
@@ -5238,7 +5251,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .team .team-panel h3 {
 	color: #282828;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 1;
@@ -5274,7 +5287,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 	line-height: 25px;
 	padding: 0 5px;
 	color: #ffffff;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 11px;
 	margin-right: 10px;
 	display: inline-block;
@@ -5668,7 +5681,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 .testimonial-panel .author-name,
 .testimonial-1 .author-name {
 	color: #282828;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 1;
@@ -5813,7 +5826,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .service .service-panel h3 {
 	color: #282828;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 29px;
@@ -5854,7 +5867,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .service .service-panel .service-more {
 	color: #222;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 16px;
 	font-weight: 800;
 	line-height: 40px;
@@ -6231,7 +6244,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .portfolio .portfolio-filter a {
 	color: #333;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 13px;
 	font-weight: 700;
 	line-height: 1;
@@ -6425,7 +6438,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .portfolio-more a {
 	color: #333;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 24px;
@@ -6723,7 +6736,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 }
 
 .portfolio-creative .portfolio-title h4 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 30px;
 	font-weight: 800;
 	line-height: 1;
@@ -6854,7 +6867,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 }
 
 .portfolio-classic .portfolio-item .portfolio-meta h4 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 1;
@@ -7146,7 +7159,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 	height: 30px;
 	background-color: #222;
 	color: white;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 16px;
 	line-height: 30px;
 	display: block;
@@ -7218,7 +7231,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 }
 
 .portfolio-single .portfolio-prev-next .portfolio-link {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	color: #222222;
 	font-size: 18px;
 	font-weight: 800;
@@ -7371,7 +7384,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .portfolio-prev-next-short .portfolio-back {
 	color: #333333;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 16px;
 	line-height: 150px;
 	text-transform: uppercase;
@@ -7986,7 +7999,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .counter .counter-panel {
 	text-align: left;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-weight: 800;
 	position: relative;
 }
@@ -8140,7 +8153,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .pricing .price-table .panel-body h3 {
 	color: #ffffff;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-weight: 500;
 	line-height: 1;
 	margin-bottom: 10px;
@@ -8288,7 +8301,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .entry .entry-date a {
 	color: #616161;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 26px;
@@ -8319,9 +8332,8 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 .entry .entry-meta {
 	font-size: 12px;
 	font-weight: 700;
-	font-style: italic;
 	line-height: 26px;
-	color: #9b9b9b;
+	color: #black;
 	margin-bottom: 26px;
 }
 
@@ -8420,7 +8432,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 }
 
 .single-post .entry-prev-next .entry-link {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	color: #222222;
 	font-size: 18px;
 	font-weight: 800;
@@ -8551,7 +8563,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 .single-post .entry-widget-title {
 	position: relative;
 	color: #282828;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 16px;
 	font-weight: 800;
 	line-height: 1;
@@ -8611,7 +8623,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 	background-color: #222;
 	margin-right: 10px;
 	color: white;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 12px;
 	line-height: 25px;
 	font-weight: 700;
@@ -8651,7 +8663,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .single-post .entry-related .entry-date {
 	color: #616161;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 12px;
 	font-weight: 800;
 	line-height: 1;
@@ -8736,7 +8748,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .commentlist li .commen-content .comment-date {
 	color: #616161;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 12px;
 	font-weight: 800;
 	line-height: 1;
@@ -8763,7 +8775,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .commentlist .reply a {
 	color: #333;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 16px;
 	line-height: 1;
 	text-transform: uppercase;
@@ -8853,7 +8865,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .entry-more a {
 	color: #333;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 	text-transform: uppercase;
@@ -8990,7 +9002,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 	display: inline-block;
 	font-weight: 800;
 	text-transform: uppercase;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	line-height: 1;
 	font-style: normal;
 	position: relative;
@@ -9204,7 +9216,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 }
 
 .cart-table thead tr th {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 15px;
 	font-weight: 800;
 	text-align: center;
@@ -9300,7 +9312,7 @@ td.cart-product-quantity {
 	padding-right: 16px;
 	padding-left: 16px;
 	border-radius: 1px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	text-transform: uppercase;
 }
 
@@ -9429,7 +9441,7 @@ td.cart-product-quantity {
 	width: auto;
 	padding: 0 17px;
 	border-radius: 0;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	text-transform: uppercase;
 }
 
@@ -9450,7 +9462,7 @@ td.cart-product-quantity {
 .shop-categories .shop-options .product-options2 span,
 .shop-categories .shop-options .product-view-mode span {
 	color: #474747;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 15px;
 	line-height: 20px;
 	margin-right: 20px;
@@ -9721,7 +9733,7 @@ td.cart-product-quantity {
 
 .shop-product .product-quantity .qua {
 	color: #282828;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 16px;
 	font-weight: 800;
 	line-height: 20px;
@@ -9764,7 +9776,7 @@ td.cart-product-quantity {
 	border-radius: 0;
 	font-size: 13px;
 	text-transform: capitalize;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 }
 
 .shop-product .product-share {
@@ -9789,7 +9801,7 @@ td.cart-product-quantity {
 	font-size: 12px;
 	font-weight: 700;
 	color: #ffffff;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	text-align: center;
 	display: inline-block;
 	margin-right: 23px;
@@ -9860,7 +9872,7 @@ td.cart-product-quantity {
 }
 
 .product-tabs .nav-tabs a {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 15px;
 	font-weight: 800;
 	text-transform: capitalize;
@@ -10220,7 +10232,7 @@ td.cart-product-quantity .product-quantity i {
 
 .contact .form-heading {
 	color: #282828;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 16px;
 	font-weight: 800;
 	line-height: 29px;
@@ -10254,7 +10266,7 @@ td.cart-product-quantity .product-quantity i {
 
 .contact .contact-form .btn {
 	color: white;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 16px;
 	line-height: 49px;
 	text-transform: uppercase;
@@ -10464,7 +10476,7 @@ td.cart-product-quantity .product-quantity i {
 
 .widget-categories ul li a {
 	color: #333;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 13px;
 	font-weight: 700;
 	line-height: 40px;
@@ -10487,7 +10499,7 @@ td.cart-product-quantity .product-quantity i {
 }
 
 .widget-tags a {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	display: inline-block;
 	background-color: transparent;
 	border: 1px solid #222222;
@@ -10539,7 +10551,7 @@ td.cart-product-quantity .product-quantity i {
 }
 
 .widget-tweets ul li p.tweet {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	color: #222222;
 	font-weight: 600;
 	font-size: 13px;
@@ -10557,7 +10569,7 @@ td.cart-product-quantity .product-quantity i {
 }
 
 .widget-tweets ul li .timePosted {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	color: #222222;
 	font-size: 11px;
 	font-weight: 400;
@@ -10591,7 +10603,7 @@ td.cart-product-quantity .product-quantity i {
 }
 
 .widget-recent .entry .entry-desc .meta-date a {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	color: #616161;
 	font-size: 12px;
 	font-weight: 800;
@@ -10607,7 +10619,7 @@ td.cart-product-quantity .product-quantity i {
 
 .widget-recent .entry .entry-desc .entry-title a {
 	color: #222222;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 16px;
 	font-weight: 800;
 	line-height: 27px;
@@ -10628,7 +10640,7 @@ td.cart-product-quantity .product-quantity i {
 }
 
 .widget-recent .entry .entry-desc .entry-meta {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 12px;
 	font-weight: 700;
 	line-height: 1;
@@ -10655,7 +10667,7 @@ td.cart-product-quantity .product-quantity i {
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	color: #474747;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold';
 	font-size: 13px;
 	line-height: 49px;
 	font-weight: 700;
@@ -10701,7 +10713,7 @@ td.cart-product-quantity .product-quantity i {
 	width: 50px;
 	height: 49px;
 	text-align: center;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 13px;
 	line-height: 49px;
 	text-transform: uppercase;
@@ -10878,7 +10890,7 @@ td.cart-product-quantity .product-quantity i {
 	border: 2px solid #222;
 	border-radius: 0;
 	color: #222;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 13px;
 	line-height: 40px;
 	text-transform: uppercase;
@@ -10932,7 +10944,7 @@ td.cart-product-quantity .product-quantity i {
 
 .widget-recent-products .product .product-title a {
 	color: #222222;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 1;
@@ -11134,7 +11146,7 @@ footer {
 	height: 30px;
 	background-color: #222;
 	color: white;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-weight: 700;
 	font-size: 13px;
 	line-height: 30px;
@@ -11184,7 +11196,7 @@ footer {
 	border: none;
 	border-bottom: 2px solid rgba(255, 255, 255, 0.16);
 	color: #474747;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 13px;
 	line-height: 49px;
 	text-transform: lowercase;
@@ -11216,7 +11228,7 @@ footer {
 .footer-widget form .btn {
 	width: 53px;
 	color: #4D9ED7;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-weight: 700;
 	font-size: 13px;
 	line-height: 49px;
@@ -11782,7 +11794,7 @@ footer {
 	float: left;
 	display: inline-block;
 	text-align: left;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-weight: 800;
 	position: relative;
 }
@@ -11885,7 +11897,7 @@ footer {
 .process .process-panel h3,
 .process .process-panel .step {
 	color: #282828;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 26px;
@@ -12155,14 +12167,14 @@ footer {
 
 .skills .progress-title .title {
 	color: #222222;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 15px;
 	font-weight: 700;
 	line-height: 1;
 }
 
 .skills .progress-title .value {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Extrabold', sans-serif;
 	font-size: 12px;
 	font-weight: 700;
 	line-height: 1;
