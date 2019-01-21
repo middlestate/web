@@ -172,6 +172,21 @@ body {
 	line-height: 1.5;
 	margin: 0;
 }
+.Gilroy-Regular {
+	font-family: Gilroy-Regular;
+	font-weight: normal;
+	font-style: normal;
+}
+.Gilroy-Light {
+	font-family: Gilroy-Light;
+	font-weight: normal;
+	font-style: normal;
+}
+.Gilroy-ExtraBold {
+	font-family: Gilroy-ExtraBold;
+	font-weight: normal;
+	font-style: normal;
+}
 
 .wrapper {
 	background-color: #ffffff;
