@@ -1,4 +1,4 @@
-// Rs Slider In home-agency-3.html & home-corporate-5.html 
+// Rs Slider In home-agency-3.html & home-corporate-5.html
 jQuery(document).ready(function() {
     "use strict";
     jQuery("#slider1").revolution({
@@ -8,7 +8,7 @@ jQuery(document).ready(function() {
         delay: 99000,/* sets the Slider's default timeline */
         disableProgressBar: "on",
         minHeight: 500,
-        spinner: "spinner0",/* PRELOADER OPTION "0" */ 
+        spinner: "spinner0",/* PRELOADER OPTION "0" */
         /* basic navigation arrows and bullets */
         navigation: {
             keyboardNavigation: "off",
@@ -35,7 +35,7 @@ jQuery(document).ready(function() {
             arrows: {
                 style: 'hades',
                 tmp: '<div class="tp-arr-allwrapper"><div class="tp-arr-imgholder"></div></div>',
-                enable: true,
+                enable: false,
                 hide_onmobile: true,
                 hide_onleave: false,
                 tmp: '',
@@ -59,4 +59,3 @@ jQuery(document).ready(function() {
 
     });
 });
- 
