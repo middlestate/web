@@ -163,7 +163,7 @@ html {
 
 body {
 	background-color: #ffffff;
-	font-family: 'Gilroy-ExtraBold', serif;
+	font-family: 'Gilroy-ExtraBold';
 	font-size: 16px;
 	font-weight: 400;
 	color: #9b9b9b;
@@ -352,7 +352,7 @@ p {
 blockquot,
 .blockquote {
 	font-size: 20px;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-style: italic;
 	line-height: 28px;
 	font-weight: 500;
@@ -594,7 +594,7 @@ ul.dot-list li i {
 }
 
 .text-font-body {
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 }
 
 .text-white {
@@ -1542,7 +1542,7 @@ ul.dot-list li i {
 \*------------------------------------*/
 .heading .subheading {
 	color: #616161;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 1;
@@ -1741,7 +1741,7 @@ ul.dot-list li i {
 /* Heading #11 */
 .heading-11 p {
 	color: #222222;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 15px;
 	font-weight: 700;
 	font-style: italic;
@@ -1845,8 +1845,8 @@ ul.dot-list li i {
 }
 
 .page-title .title .title-content h1 {
-	font-family: 'Gilroy-ExtraRegular', sans-serif;
-	font-size: 55px;
+	font-family: 'Gilroy-ExtraBold', sans-serif;
+	font-size: 40px;
 	color: black;
 	line-height: 50px;
 	margin-bottom: 10px;
@@ -4795,7 +4795,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 	padding-bottom: 16px;
 	margin-bottom: 2px;
 	color: #616161;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 18px;
 	font-weight: 700;
 	font-style: italic;
@@ -5254,7 +5254,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .team .team-panel p {
 	color: #9b9b9b;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 12px;
 	font-weight: 700;
 	font-style: italic;
@@ -5660,7 +5660,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .testimonial-panel .testimonial-content p {
 	color: #616161;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 19px;
 	font-style: italic;
 	line-height: 29px;
@@ -5686,7 +5686,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 .testimonial-panel .author-job,
 .testimonial-1 .author-job {
 	color: #9b9b9b;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 11px;
 	font-weight: 700;
 	font-style: italic;
@@ -5852,7 +5852,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .service .service-panel p {
 	color: #9b9b9b;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 23px;
@@ -6016,7 +6016,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .service-3 .tab-content .head {
 	color: #616161;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 15px;
 	font-weight: 700;
 	font-style: italic;
@@ -6026,7 +6026,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .service-3 .tab-content p {
 	color: #9b9b9b;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 16px;
 	line-height: 23px;
 	margin-bottom: 24px;
@@ -6250,7 +6250,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .portfolio .portfolio-filter a span {
 	color: #616161;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 12px;
 	font-weight: 700;
 	line-height: 1;
@@ -6357,7 +6357,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .portfolio .portfolio-cat {
 	color: #9b9b9b;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 11px;
 	font-weight: 700;
 	font-style: italic;
@@ -6719,7 +6719,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .portfolio-creative .portfolio-cat {
 	color: #9b9b9b;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 11px;
 	font-weight: 700;
 	font-style: italic;
@@ -6748,7 +6748,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 	padding-left: 100px;
 	padding-top: 20px;
 	color: #9b9b9b;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 16px;
 	font-style: italic;
 	line-height: 23px;
@@ -7010,12 +7010,12 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 .portfolio-single .portfolio-cat {
 	margin-bottom: 12px;
 	color: #9b9b9b;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 }
 
 .portfolio-single .portfolio-cat a {
 	color: #9b9b9b;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold'serif;
 	font-size: 11px;
 	font-weight: 700;
 	font-style: italic;
@@ -7074,7 +7074,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .portfolio-single p {
 	color: #9b9b9b;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 16px;
 	font-style: italic;
 	line-height: 24px;
@@ -7086,10 +7086,9 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .portfolio-single .portfolio-meta div {
 	color: #9b9b9b;
-	font-family: 'Gilroy Extra-Bold', serif;
-	font-size: 13px;
+	font-family: 'Gilroy Extra-Bold';
+	font-size: 18px;
 	font-weight: 700;
-	font-style: italic;
 	line-height: 1;
 	margin-bottom: 20px;
 }
@@ -7115,7 +7114,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 .portfolio-single .portfolio-share h3,
 .portfolio-single .portfolio-related h3 {
 	color: #9b9b9b;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 13px;
 	font-weight: 700;
 	font-style: italic;
@@ -8136,7 +8135,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .pricing .price-table .panel-body .plan {
 	color: #f9f9f9;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 13px;
 	font-weight: 700;
 	font-style: italic;
@@ -8182,7 +8181,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 
 .pricing .price-table .list-group li {
 	color: #616161;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 16px;
 	font-weight: 700;
 	font-style: italic;
@@ -8357,7 +8356,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 	margin-right: 34px;
 	position: relative;
 	color: #9b9b9b;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 13px;
 	font-weight: 700;
 	font-style: italic;
@@ -9170,7 +9169,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 	height: 35px;
 	border: 1px solid #eeeeee;
 	color: #9b9b9b;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 13px;
 	font-weight: 500;
 	font-style: italic;
@@ -9245,7 +9244,7 @@ td.cart-product-quantity .product-quantity input {
 	border-radius: 2px;
 	text-align: center;
 	color: #282828;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 25px;
@@ -9279,7 +9278,7 @@ td.cart-product-quantity {
 
 .cart-table .cart-product-action .form-control {
 	color: #9b9b9b;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 12px;
 	font-weight: 400;
 	padding: 0 15px;
@@ -9398,7 +9397,7 @@ td.cart-product-quantity {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-style: italic;
 	text-transform: capitalize;
 }
@@ -10176,12 +10175,15 @@ td.cart-product-quantity .product-quantity i {
 
 .contact .heading .subheading {
 	font-size: 13px;
+	font-family:'Gilroy-ExtraBold'
+	color: #black;
+
 }
 
 .contact .contact-bio {
-	font-family:'Gilroy-Regular'
+	font-size: 15px;
+	font-family:'Gilroy-Regular';
 	color: #black;
-	font-size: 16px;
 	line-height: 23px;
 	margin-bottom: 47px;
 }
@@ -10225,7 +10227,7 @@ td.cart-product-quantity .product-quantity i {
 
 .contact .form-heading {
 	color: #282828;
-	font-family: 'Gilroy-Extrabold', sans-serif;
+	font-family: 'Gilroy-Regular';
 	font-size: 16px;
 	font-weight: 800;
 	line-height: 29px;
@@ -10259,7 +10261,7 @@ td.cart-product-quantity .product-quantity i {
 
 .contact .contact-form .btn {
 	color: white;
-	font-family: 'Gilroy-Extrabold', sans-serif;
+	font-family: 'Gilroy-Regular', sans-serif;
 	font-size: 16px;
 	line-height: 49px;
 	text-transform: uppercase;
@@ -10863,7 +10865,7 @@ td.cart-product-quantity .product-quantity i {
 }
 
 .widget-filter p {
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 13px;
 	font-style: italic;
 	line-height: 1;
@@ -11092,7 +11094,7 @@ footer {
 
 .footer-widget h3 {
 	color: #616161;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 13px;
 	font-style: italic;
 	line-height: 1;
@@ -11256,7 +11258,7 @@ footer {
 }
 
 .footer-info-widget p {
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	line-height: 22px;
 	font-weight: 400;
 	margin-bottom: 0;
@@ -11435,7 +11437,7 @@ footer {
 
 .footer-9 .widget-container p {
 	color: #616161;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 13px;
 	font-style: italic;
 	line-height: 22px;
@@ -11903,7 +11905,7 @@ footer {
 
 .process .process-panel p {
 	color: #9b9b9b;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 	font-size: 16px;
 	font-style: italic;
 	line-height: 23px;
@@ -12515,7 +12517,7 @@ footer {
 	font-size: 13px;
 	font-weight: 400;
 	color: #9b9b9b;
-	font-family: 'Gilroy Extra-Bold', serif;
+	font-family: 'Gilroy Extra-Bold';
 }
 
 .side-header .wrapper {
