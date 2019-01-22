@@ -10220,6 +10220,7 @@ td.cart-product-quantity .product-quantity i {
 
 .contact .contact-form {
 	padding: 50px;
+	padding-top:0px;
 }
 
 .contact .form-heading {
