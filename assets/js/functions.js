@@ -5,17 +5,17 @@
 	2.  MODULE Click
 	3.  SEARCH CLICK
 	4.  SIDE NAV CLICK
-	5.  MOBILE NAV 
+	5.  MOBILE NAV
 	6.  BACKGROUND
 	7.  COUNTDOWN DATE
 	8.  COUNTER UP
 	9.  SLIDER RANGE
-	10. PORTFOLIO FLITER 
+	10. PORTFOLIO FLITER
 	11. MAGNIFIC POPUP
 	12. OWL CAROUSEL
 	13. AJAX MAILCHIMP
 	14. AJAX CAMPAIGN MONITOR
-	15. GOOGLE MAP 
+	15. GOOGLE MAP
 	16. WOW
 */
 $(document).ready(function() {
@@ -262,7 +262,7 @@ $(document).ready(function() {
     /* ------------------  AJAX MAILCHIMP ------------------ */
 
     $('.mailchimp').ajaxChimp({
-        url: "http://wplly.us5.list-manage.com/subscribe/post?u=91b69df995c1c90e1de2f6497&id=aa0f2ab5fa", //Replace with your own mailchimp Campaigns URL.
+        url: "https://middlestate.us19.list-manage.com/subscribe/post?u=60643eeb9377cd725a6d954d3&amp", //Replace with your own mailchimp Campaigns URL.
         callback: chimpCallback
 
     });
