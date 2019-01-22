@@ -262,7 +262,7 @@ $(document).ready(function() {
     /* ------------------  AJAX MAILCHIMP ------------------ */
 
     $('.mailchimp').ajaxChimp({
-        url: "https://middlestate.us19.list-manage.com/subscribe/post?u=60643eeb9377cd725a6d954d3&amp", //Replace with your own mailchimp Campaigns URL.
+        url: "https://middlestate.us19.list-manage.com/subscribe/post?u=60643eeb9377cd725a6d954d3&amp;id=7cccdf02df", //Replace with your own mailchimp Campaigns URL.
         callback: chimpCallback
 
     });
