@@ -14,10 +14,10 @@ jQuery(document).ready(function() {
             keyboardNavigation: "off",
             keyboard_direction: "horizontal",
             mouseScrollNavigation: "off",
-            onHoverStop: "on",
+            onHoverStop: "off",
             bullets: {
                 style: "hades",
-                enable: true,
+                enable: false,
                 hide_onmobile: false,
                 hide_onleave: false,
                 hide_delay: 200,
