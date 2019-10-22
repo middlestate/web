@@ -1,669 +1,1043 @@
-<!DOCTYPE html>
-<html dir="ltr" lang="en-US">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129539607-2"></script>
-<script>
- window.dataLayer = window.dataLayer || [];
- function gtag(){dataLayer.push(arguments);}
- gtag('js', new Date());
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <title>Meelo - Corporate One Page HTML Template</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Template by CocoBasic" />
+        <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
+        <meta name="author" content="CocoBasic" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
- gtag('config', 'UA-129539607-2');
-</script>
-<head>
-<!-- Document Meta
-    ============================================= -->
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<!--IE Compatibility Meta-->
-<meta name="author" content="middlestate" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<meta name="description" content="Made in the middle">
-<link href="assets/images/favicon/favicon_mdst.png" rel="icon">
+        <link rel="shortcut icon" href="images/favicon.ico" />    
+        <link href='https://fonts.googleapis.com/css?family=Karla:400,400i%7CRoboto:100,300,400,700,900' rel='stylesheet' type='text/css'>		
+        <link rel="stylesheet" type="text/css"  href='style.css' />
 
-<!--
-/**
- * @license
- * MyFonts Webfont Build ID 3703295, 2019-01-21T17:06:44-0500
- *
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are
- * explicitly restricted from using the Licensed Webfonts(s).
- *
- * You may obtain a valid license at the URLs below.
- *
- * Webfont: Gilroy-Regular by Radomir Tinkov
- * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/regular/
- *
- * Webfont: Gilroy-Light by Radomir Tinkov
- * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/light/
- *
- * Webfont: Gilroy-ExtraBold by Radomir Tinkov
- * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/extra-bold/
- *
- *
- * License: https://www.myfonts.com/viewlicense?type=web&buildid=3703295
- * Licensed pageviews: 10,000
- * Webfonts copyright: Copyright &#x00A9; 2016 by Radomir Tinkov. All rights reserved.
- *
- * © 2019 MyFonts Inc
-*/
+        <!--[if lt IE 9]>
+                <script src="js/html5shiv.js"></script>            
+                <script src="js/respond.min.js"></script>                   
+        <![endif]-->         
+    </head>
 
--->
+    <body class="page-template-onepage">
 
-<script type="text/javascript">
-//uncomment and change this to false if you're having trouble with WOFFs
-//var woffEnabled = true;
-//to place your webfonts in a custom directory
-//uncomment this and set it to where your webfonts are.
-//var customPath = "/themes/fonts";
-</script>
-<script type="text/javascript" src="Gilroy_Webfont.js"></script>
+        <div class="site-wrapper">   
 
+            <div class="doc-loader">
+                <img src="images/preloader.gif" alt="Loading">
+            </div>       
 
-<!-- RS5.0 Main Stylesheet -->
-<link rel="stylesheet" type="text/css" href="assets/revolution/css/settings.css">
-<link rel="stylesheet" type="text/css" href="assets/revolution/css/layers.css">
-<link rel="stylesheet" type="text/css" href="assets/revolution/css/navigation.css">
-<!-- Stylesheets
-    ============================================= -->
-<link href="assets/css/external.css" rel="stylesheet">
-<link href="assets/css/style.css" rel="stylesheet">
+            <header class="header-holder">             
+                <div class="menu-wrapper center-relative relative">             
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img src="images/logo.png" alt="Meelo">
+                        </a>               
+                    </div>
 
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-<!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
+                    <div class="toggle-holder">
+                        <div id="toggle">
+                            <div class="first-menu-line"></div>
+                            <div class="second-menu-line"></div>
+                            <div class="third-menu-line"></div>
+                        </div>
+                    </div>
 
-<!-- Document Title
-    ============================================= -->
-<title>Middlestate | A design company in Central California</title>
-</head>
-<body>
-<div class="preloader">
-	<div class="spinner">
-	<div class="double-bounce1"></div>
-	<div class="double-bounce2"></div>
-	</div>
-</div><!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="wrapper clearfix">
-<header id="navbar-spy" class="header header-1">
-    <nav id="primary-menu" class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid container-p0">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo/logo-white.png" alt="middlestate">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                    <div class="menu-holder">
+                        <nav id="header-main-menu">
+                            <ul class="main-menu sm sm-clean">
+                                <li>
+                                    <a href="#home">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#services">Services</a>
+                                </li>
+                                <li>
+                                    <a href="#portfolio">Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="#clients">Clients</a>
+                                </li>                                              
+                                <li>
+                                    <a href="#news">News</a>
+                                </li>
+                                <li>
+                                    <a href="#skills">Skills</a>
+                                </li>                                
+                                <li>
+                                    <a href="#team">Team</a>
+                                </li>
+                                <li>
+                                    <a href="#milestones">Milestones</a>
+                                </li>                                
+                                <li>
+                                    <a href="#about">About</a>
+                                </li>
+                                <li>
+                                    <a href="#pricing">Pricing</a>
+                                </li>                                
+                                <li>
+                                    <a href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>                       
+                    </div>
+                    <div class="clear"></div>   
+                </div>
+            </header>                  
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="navbarContent">
-                <ul class="navbar-nav ml-auto">
-                     	<!-- Home Menu -->
-		<li><a href="index.html">home</a></li>
+            <div id="content" class="site-content center-relative">        
 
-	<li><a href="about.html">about</a></li>
+                <!-- Home Section -->
+                <div id="home" class="section no-page-title">                                 
+                    <div class="section-wrapper block content-1170 center-relative">                        
+                        <div class="content-wrapper">
+                            <h1 class="entry-title big-title">
+                                Digital Crafters <br> 
+                                Clean Code & Neat Design
+                            </h1>
+                            <p class="site-description">
+                                We are Meelo. Award-winning design & code <br> 
+                                crafters with office in New York City
+                            </p>
+                            <br>
+                        </div>                        
+                    </div>
+                    <div class="home-full-width">
+                        <img class="dots" src="images/dots.png" alt="Dots" />
+                        <a href="#contact" class="button home-button">CONTACT US</a>                                                    
+                        <div class="home-full-width-background">
+                            <img class="logo-icon" src="images/icon_logo.png" alt="Meelo Icon" />                                                     
+                        </div>                        
+                    </div>
+                </div> 
 
-	<li><a href="contact.html">contact</a></li>
+                <!-- Services Section -->
+                <div id="services" class="section">                                 
+                    <div class="section-wrapper block content-1170 center-relative">                        
 
-	<li></a></li>
+                        <div class="page-title-holder">
+                            <p class="up-title-text">01</p>
+                            <h2 class="entry-title">SERVICES</h2>
+                            <p class="page-description">WHAT WE DO</p>                            
+                        </div>
 
-                </ul>
-                <div class="module-container">
-  </div>                    <!-- Module Social -->
-<div class="module module-social">
-    <a class="social-icon social-text-hover social-icon-twitter" href="https://twitter.com/mdst_design"><i class="fa fa-twitter"></i></a>
-    <a class="social-icon social-text-hover social-icon-instagram" href="https://instagram.com/mdst_design"><i class="fa fa-instagram"></i></a>
-</div>                </div>
+                        <div class="content-wrapper">
+
+                            <div class="one_third">
+                                <div class="service-holder bottom-50">
+                                    <p class="service-num">I</p>
+                                    <div class="service-txt">
+                                        <h4>Design</h4>
+                                        <p>Clean birth consciousness cosmic ocean citizens of distant epochs</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="one_third">
+                                <div class="service-holder bottom-50">
+                                    <p class="service-num">II</p>
+                                    <div class="service-txt">
+                                        <h4>Code</h4>
+                                        <p>Kindling the energy hidden in matter a mote of dust suspended blues</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="one_third last">
+                                <div class="service-holder bottom-50">
+                                    <p class="service-num">III</p>
+                                    <div class="service-txt">
+                                        <h4>Support</h4>
+                                        <p>Extraplanetary how far away equation with pretty stories for little good</p>
+                                    </div>
+                                </div>
+                            </div>                            
+                            <div class="clear"></div>
+
+                            <div class="one_third">
+                                <div class="service-holder">
+                                    <p class="service-num">IV</p>
+                                    <div class="service-txt">
+                                        <h4>Marketing</h4>
+                                        <p>Realm of the galaxies sed ut spiciatis unde omnis iste natus error</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="one_third">
+                                <div class="service-holder">
+                                    <p class="service-num">V</p>
+                                    <div class="service-txt">
+                                        <h4>Social</h4>
+                                        <p>Est sem integer suscipit enim quis dictum feugiat etiam pellentesque</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="one_third last">
+                                <div class="service-holder">
+                                    <p class="service-num">VI</p>
+                                    <div class="service-txt">
+                                        <h4>Trust</h4>
+                                        <p>Donec vel est sem integer suscipit enim quis lorem posuere vestibulum</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>                        
+                    </div>
+                </div> 
+
+                <!-- Portfolio Section -->
+                <div id="portfolio" class="section">                                 
+                    <div class="section-wrapper block content-1170 center-relative">                        
+
+                        <div class="page-title-holder">
+                            <p class="up-title-text">02</p>
+                            <h2 class="entry-title">PORTFOLIO</h2>
+                            <p class="page-description">CHECK OUR WORK</p>                            
+                        </div>
+
+                        <div class="content-wrapper">
+
+                            <div class="one_half ">
+                                <h3 class="medium-text">
+                                    We are Meelo. <br> 
+                                    Creative agency from NY.
+                                </h3>
+                                <p class="small-text">
+                                    Natus error sit volup em in heavy atoms star stuff.
+                                </p>
+                            </div>
+
+                            <div class="one_half last">
+                                Dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla.
+                            </div>
+                            <div class="clear"></div>
+                            <br>
+
+                            <div id="portfolio-wrapper">
+                                <div class="portfolio-load-content-holder"></div>
+                                <div class="grid" id="portfolio-grid">
+                                    <div class="grid-sizer"></div>
+
+                                    <div id="p-item-1" class="grid-item element-item p_one_half">                                        
+                                        <a class="item-link ajax-portfolio" href="portfolio-1.html" data-id="1">
+                                            <img src="images/portfolio_item_01.jpg" alt="" />
+                                            <div class="portfolio-text-holder">
+                                                <p class="portfolio-desc">INTERIOR</p>
+                                                <p class="portfolio-title">Light</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div id="p-item-2" class="grid-item element-item p_one_half">
+                                        <a class="item-link ajax-portfolio" href="portfolio-2.html" data-id="2">
+                                            <img src="images/portfolio_item_03.jpg" alt="" />
+                                            <div class="portfolio-text-holder">
+                                                <p class="portfolio-desc">BRANDING</p>
+                                                <p class="portfolio-title">Packaging</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div id="p-item-3" class="grid-item element-item p_one_fourth">
+                                        <a class="item-link ajax-portfolio" href="portfolio-3.html" data-id="3">
+                                            <img src="images/portfolio_item_02.jpg" alt="" />
+                                            <div class="portfolio-text-holder">
+                                                <p class="portfolio-desc">CREATIVE</p>
+                                                <p class="portfolio-title">PSD Mockup</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div id="p-item-4" class="grid-item element-item p_one_fourth">
+                                        <a class="item-link ajax-portfolio" href="portfolio-4.html" data-id="4">
+                                            <img src="images/portfolio_item_04.jpg" alt="" />
+                                            <div class="portfolio-text-holder">
+                                                <p class="portfolio-desc">ARCHITECTURE</p>
+                                                <p class="portfolio-title">Pillars</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>                           
+                        </div>                        
+                    </div>
+                </div> 
+
+                <!-- Clients Section -->
+                <div id="clients" class="section no-page-title">                                 
+                    <div class="section-wrapper block content-1170 center-relative">                        
+                        <div class="content-wrapper">
+                            <script>
+                                var textSlider_speed = "2000";
+                                var textSlider_auto = "true";
+                                var textSlider_hover = "true";
+                            </script>
+                            <div class="text-slider-wrapper relative">
+                                <div class="text-slider-header-quotes"></div>
+                                <div id="textSlider" class="text-slider slider owl-carousel owl-theme">                                    
+
+                                    <div class="text-slide">
+                                        <p class="text-slide-content">
+                                            Curabitur cursus mattis ligula a maximus pellentesque in purus malesuada, pharetra eros id, malesuada diam vivamus eu gravida lacus nulla at consectetur quam vestibulum ac arcu sed.
+                                        </p>
+                                        <img class="text-slide-img" src="images/quote_image_03.jpg" alt="" />
+                                        <div class="text-slide-info">
+                                            <p class="text-slide-name">Jane Williams</p>
+                                            <p class="text-slide-position">DESIGNER</p>
+                                        </div>
+                                    </div>                                
+
+                                    <div class="text-slide">
+                                        <p class="text-slide-content">
+                                            Vivamus quis ante varius, pretium lectus ut, tempor eros maecenas vitae purus lobortis, pulvinar lorem eu, porta elit suspendisse blandit porta magna, nec scelerisque urna viverra lorem gravida.
+                                        </p>
+                                        <img class="text-slide-img" src="images/quote_image_04.jpg" alt="" />
+                                        <div class="text-slide-info">
+                                            <p class="text-slide-name">John Smith</p>
+                                            <p class="text-slide-position">GURU</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-slide">
+                                        <p class="text-slide-content">
+                                            Suspendisse enim erat, vehicula sit amet odio eu, congue gravida magna mauris a ex aliquam, ornare tortor sit amet, placerat ante aenean sit amet sem et metus elementum pellentesque.
+                                        </p>
+                                        <img class="text-slide-img" src="images/quote_image_02.jpg" alt="" />
+                                        <div class="text-slide-info">
+                                            <p class="text-slide-name">Peter Hall</p>
+                                            <p class="text-slide-position">CEO</p>
+                                        </div>
+                                    </div>                       
+                                </div>
+                            </div>                        
+                        </div>
+                    </div> 
+                </div> 
+
+                <!-- News Section -->
+                <div id="news" class="section">                                 
+                    <div class="section-wrapper block content-1170 center-relative">                        
+
+                        <div class="page-title-holder">
+                            <p class="up-title-text">04</p>
+                            <h2 class="entry-title">NEWS</h2>
+                            <p class="page-description">UPDATES</p>                            
+                        </div>
+
+                        <div class="content-wrapper">
+                            <div class="blog-holder-scode latest-posts-scode block center-relative">
+
+                                <article class="relative blog-item-holder-scode">
+                                    <div class="post-thumbnail">
+                                        <a href="single.html">
+                                            <div class="latest-posts-background-featured-image-holder" data-image="images/blog_img_01.jpg"></div>
+                                        </a>                                           
+                                    </div>
+                                    <div class="cat-links">
+                                        <ul>
+                                            <li>
+                                                <a href="#">Design</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Music</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <h4 class="entry-title">
+                                        <a href="single.html">
+                                            How to write rogue mote of dust love
+                                        </a>
+                                    </h4>
+                                    <span class="entry-date published">September 10, 2018</span>
+                                    <span class="by">by</span>
+                                    <span class="author-nickname">
+                                        <a href="#" title="Posts by John Smith" rel="author">John Smith</a>
+                                    </span>
+                                </article>
+
+                                <article class="relative blog-item-holder-scode">
+                                    <div class="post-thumbnail">
+                                        <a href="single.html">
+                                            <div class="latest-posts-background-featured-image-holder" data-image="images/blog_img_02.jpg"></div>
+                                        </a>                                           
+                                    </div>
+                                    <div class="cat-links">
+                                        <ul>
+                                            <li>
+                                                <a href="#">CSS</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Video</a>
+                                            </li>                                        
+                                        </ul>
+                                    </div>
+                                    <h4 class="entry-title">
+                                        <a href="single.html">Epochs encyclopa galactica stellar</a>
+                                    </h4>
+                                    <span class="entry-date published">September 10, 2018</span>
+                                    <span class="by">by</span>
+                                    <span class="author-nickname">
+                                        <a href="#" title="Posts by John Smith" rel="author">John Smith</a>
+                                    </span>
+                                </article>
+
+                                <article class="relative blog-item-holder-scode">
+                                    <div class="post-thumbnail">
+                                        <a href="single.html">
+                                            <div class="latest-posts-background-featured-image-holder" data-image="images/blog_img_03.jpg"></div>
+                                        </a>                                            
+                                    </div>
+                                    <div class="cat-links">
+                                        <ul>
+                                            <li>
+                                                <a href="#">Music</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <h4 class="entry-title">
+                                        <a href="single.html">Connection of paper and web makes</a>
+                                    </h4>
+                                    <span class="entry-date published">September 10, 2018</span>
+                                    <span class="by">by</span>
+                                    <span class="author-nickname">
+                                        <a href="#" title="Posts by John Smith" rel="author">John Smith</a>
+                                    </span>
+                                </article>
+                                <div class="clear"></div>                                    
+                            </div>
+                        </div>                        
+                    </div>
+                </div> 
+
+                <!-- Skills Section -->
+                <div id="skills" class="section">                                 
+                    <div class="section-wrapper block content-1170 center-relative">                        
+
+                        <div class="page-title-holder">
+                            <p class="up-title-text">05</p>
+                            <h2 class="entry-title">SKILLS</h2>
+                            <p class="page-description">WHAT WE KNOW</p>                            
+                        </div>
+
+                        <div class="content-wrapper">
+
+                            <div class="one_third ">
+                                <h3 class="medium-text white-text">                                    
+                                    Check our <br> 
+                                    Skills
+                                </h3>
+                                <br>
+                                <p class="white-text">
+                                    Accusantium doloremque laudantium venture dream of the mind’s eye rich in heavy vel convallis justo sagittis congue.
+                                </p>
+                            </div>
+
+                            <div class="two_third last">
+                                <div class="skills-holder">
+
+                                    <div class="skill-holder">
+                                        <div class="skill-percent">75%</div>
+                                        <div class="skill-text">
+                                            <span>BRANDING</span>
+                                            <div class="skill">
+                                                <div class="skill-fill" data-fill="75%"></div>                                                   
+                                            </div>                                               
+                                        </div>                                            
+                                    </div>
+
+                                    <div class="skill-holder">
+                                        <div class="skill-percent">20%</div>
+                                        <div class="skill-text">
+                                            <span>COOKING</span>
+                                            <div class="skill">
+                                                <div class="skill-fill" data-fill="20%"></div>                                                    
+                                            </div>                                                
+                                        </div>                                            
+                                    </div>
+
+                                    <div class="skill-holder">
+                                        <div class="skill-percent">90%</div>
+                                        <div class="skill-text">
+                                            <span>PHP</span>
+                                            <div class="skill">
+                                                <div class="skill-fill" data-fill="90%"></div>                                                    
+                                            </div>                                                
+                                        </div>                                            
+                                    </div>
+
+                                    <div class="skill-holder">
+                                        <div class="skill-percent">65%</div>
+                                        <div class="skill-text">
+                                            <span>MARKETING</span>
+                                            <div class="skill">
+                                                <div class="skill-fill" data-fill="65%"></div>                                                    
+                                            </div>                                                
+                                        </div>                                            
+                                    </div>
+
+                                    <div class="skill-holder">
+                                        <div class="skill-percent">85%</div>
+                                        <div class="skill-text">
+                                            <span>DESIGN</span>
+                                            <div class="skill">
+                                                <div class="skill-fill" data-fill="85%"></div>                                                    
+                                            </div>                                                
+                                        </div>                                            
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>                        
+                    </div>
+                </div> 
+
+                <!-- Team Section -->
+                <div id="team" class="section">                                 
+                    <div class="section-wrapper block content-1170 center-relative">                        
+
+                        <div class="page-title-holder">
+                            <p class="up-title-text">06</p>
+                            <h2 class="entry-title">TEAM</h2>
+                            <p class="page-description">MEET US</p>                            
+                        </div>
+
+                        <div class="content-wrapper">
+
+                            <div class="member member-left">
+                                <div class="member-wrapper">
+                                    <div class="member-image-holder">
+                                        <img src="images/team_image_01.jpg" alt="" />
+                                    </div>
+                                    <div class="member-info">
+                                        <div class="member-name">
+                                            Vanessa Michaels
+                                        </div>
+                                        <p class="member-postition">DEVELOPER</p>
+                                        <div class="member-content">
+                                            <p>
+                                                Code the energy hidden in matter citizens of distant epochs sun. Citizens of distant epochs encyclopaedia galant ctica the ash of stellar alchemy Vangelis white dwarf adipisci velit. Nemo enim ipsam volupta tem quia voluptas sit aspernatur aut odit aut fugit radio telescope quis nostrum exercitatio nem ullam corporis suscipit laboriosam quis.
+                                            </p>
+                                            <div class="member-social-holder ">
+                                                <div class="social">
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="social">
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="social">
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="social">
+                                                    <a href="#">
+                                                        <i class="fa fa-vimeo"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="social">
+                                                    <a href="#">
+                                                        <i class="fa fa-behance"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="member big-screen member-right top-100">
+                                <div class="member-wrapper">
+                                    <div class="member-info">
+                                        <div class="member-name">
+                                            Joan Williams
+                                        </div>
+                                        <p class="member-postition">
+                                            DESIGNER
+                                        </p>
+                                        <div class="member-content">
+                                            <p>
+                                                Code the energy hidden in matter citizens of distant epochs sun. Citizens of distant epochs encyclopaedia galant ctica the ash of stellar alchemy Vangelis white dwarf adipisci velit. Nemo enim ipsam volupta tem quia voluptas sit aspernatur aut odit aut fugit radio telescope quis nostrum exercitatio nem ullam corporis suscipit laboriosam quis.
+                                            </p>
+                                            <div class="member-social-holder">
+                                                <div class="social">
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="social">
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="social">
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="social">
+                                                    <a href="#">
+                                                        <i class="fa fa-vimeo"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="social">
+                                                    <a href="#">
+                                                        <i class="fa fa-behance"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="member-image-holder">
+                                        <img src="images/team_image_02.jpg" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="member member-left top-100">
+                                <div class="member-wrapper">
+                                    <div class="member-image-holder">
+                                        <img src="images/team_image_03.jpg" alt="" />
+                                    </div>
+                                    <div class="member-info">
+                                        <div class="member-name">Elle Raynolds</div>
+                                        <p class="member-postition">DEVELOPER</p>
+                                        <div class="member-content">
+                                            <p>
+                                                Code the energy hidden in matter citizens of distant epochs sun. Citizens of distant epochs encyclopaedia galant ctica the ash of stellar alchemy Vangelis white dwarf adipisci velit. Nemo enim ipsam volupta tem quia voluptas sit aspernatur aut odit aut fugit radio telescope quis nostrum exercitatio nem ullam corporis suscipit laboriosam quis.
+                                            </p>
+                                            <div class="member-social-holder ">
+                                                <div class="social">
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="social">
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="social">
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="social">
+                                                    <a href="#">
+                                                        <i class="fa fa-vimeo"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="social">
+                                                    <a href="#">
+                                                        <i class="fa fa-behance"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div> 
+
+                <!-- Milestones Section -->
+                <div id="milestones" class="section">                                 
+                    <div class="section-wrapper block content-1170 center-relative">                        
+
+                        <div class="page-title-holder">
+                            <p class="up-title-text">07</p>
+                            <h2 class="entry-title">MILESTONES</h2>
+                            <p class="page-description">OUR NUMBERS</p>                            
+                        </div>
+
+                        <div class="content-wrapper">
+                            <ul class="milestones-holder">
+                                <li class="milestone">
+                                    <p class="milestone-num">39g</p>
+                                    <p class="milestone-text">
+                                        Pellentesque tempus nulla mi, ut pharetra massa ultrices lorem
+                                    </p>
+                                </li>
+                                <li class="milestone">
+                                    <p class="milestone-num">133</p>
+                                    <p class="milestone-text">
+                                        Nulla ac laoreet est, a quis nibh aenean eget auctor velit mollis
+                                    </p>
+                                </li>
+                                <li class="milestone">
+                                    <p class="milestone-num">0.581</p>
+                                    <p class="milestone-text">
+                                        Quisque tincidunt tempus odio, posuere est mollis hendrerit quis
+                                    </p>
+                                </li>
+                                <li class="milestone">
+                                    <p class="milestone-num">24h</p>
+                                    <p class="milestone-text">
+                                        Maecenas et ante lorem quis pellentesque vulputate nec ac nibh
+                                    </p>
+                                </li>
+                                <li class="milestone">
+                                    <p class="milestone-num">47 - 52</p>
+                                    <p class="milestone-text">
+                                        Fusce mollis ultricies massa a nec efficit tellus in ultrices tempus
+                                    </p>
+                                </li>
+                                <li class="milestone">
+                                    <p class="milestone-num">23k</p>
+                                    <p class="milestone-text">
+                                        Vestibulum mi mi, facilisis ac a, pulvinar nec dolor mollis cursus
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div> 
+
+                <!-- About Section -->
+                <div id="about" class="section">                                 
+                    <div class="section-wrapper block content-1170 center-relative">                        
+
+                        <div class="page-title-holder">
+                            <p class="up-title-text">08</p>
+                            <h2 class="entry-title">ABOUT</h2>
+                            <p class="page-description">KNOW US</p>                            
+                        </div>
+
+                        <div class="content-wrapper">
+                            <p>
+                                <img src="images/about_image_01.jpg" alt="" />
+                            </p>
+                            <br>
+                            <h3 class="medium-text">
+                                We are Meelo. <br> 
+                                Creative agency from NY.
+                            </h3>
+                            <br>
+
+                            <div class="one_half">
+                                <p class="small-text">
+                                    Natus error sit volup em in heavy atoms star stuff.
+                                </p>
+                                <p>
+                                    Minim veniam, quis nostrud exerci tation ullam corper suscipit lobortis nisl ut aliquip ex ea com modo consequat duis autem vel eumiriu dolor in hendrerit in vulputate velit esse molestie con.
+                                </p>
+                                <br>
+                                <p>
+                                    Dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla.
+                                </p>
+                                <br>
+                                <div class="button-holder text-left">
+                                    <a href="#contact" class="button">CONTACT US</a>
+                                </div>
+                            </div>
+
+                            <div class="one_half last">
+                                <ul class="timeline-holder">
+
+                                    <li class="timeline-event">
+                                        <span class="timeline-circle"></span>
+                                        <div class="timeline-event-content">
+                                            Flatland tingling of the spine, a billion trillion science paroxysm of global death permanence
+                                        </div>
+                                        <div class="timeline-event-date">2015</div>
+                                    </li>
+
+                                    <li class="timeline-event">
+                                        <span class="timeline-circle"></span>
+                                        <div class="timeline-event-content">
+                                            Rings of Uranus the only home we've ever known. Permanence of the stars Tunguska event Drake Equation encyclopaedia galactica great turbulent clouds vangelis the sky calls to us rich in heavy atoms something incredible is waiting to be know
+                                        </div>
+                                        <div class="timeline-event-date">2017</div>
+                                    </li>
+
+                                    <li class="timeline-event">
+                                        <span class="timeline-circle"></span>
+                                        <div class="timeline-event-content">
+                                            Gathered by gravity preserve and cherish that pale blue dot quasar, the carbon in our apple pies pudding
+                                        </div>
+                                        <div class="timeline-event-date">2018</div>
+                                    </li>
+
+                                    <li class="timeline-event">
+                                        <span class="timeline-circle"></span>
+                                        <div class="timeline-event-content">
+                                            Tendrils of gossamer clouds, the ash of stellar alchemy tendrils of true gossamer clouds vangelis the sky calls to us rich in heavy atoms something incredible
+                                        </div>
+                                        <div class="timeline-event-date">2020</div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="clear"></div>
+                        </div>                        
+                    </div>
+                </div> 
+
+                <!-- Pricing Section -->
+                <div id="pricing" class="section">                                 
+                    <div class="section-wrapper block content-1170 center-relative">                        
+
+                        <div class="page-title-holder">
+                            <p class="up-title-text">09</p>
+                            <h2 class="entry-title">PRICING</h2>
+                            <p class="page-description">CHOOSE PLAN</p>                            
+                        </div>
+
+                        <div class="content-wrapper">
+
+                            <div class="one_third">
+                                <div class="pricing-table">                                
+                                    <div class="pricing-table-header">
+                                        <div class="pricing-table-title">BASIC</div>                                                
+                                    </div>
+                                    <div class="pricing-wrapper">                                       
+                                        <div class="pricing-table-price">$25</div>
+                                        <div class="pricing-table-desc">PER MONTH</div>
+                                        <div class="pricing-table-content-holder">  
+                                            <ul>
+                                                <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check"></span>
+                                                    Unlimited Support
+                                                </li>
+                                                <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check"></span>
+                                                    5GB Server Space
+                                                </li>
+                                                <li class="pricing-list">
+                                                    <span class="fa fa-check"></span>
+                                                    2 Users per Project
+                                                </li>
+                                                <li class="pricing-list">
+                                                    <span class="fa fa-times"></span>
+                                                    Email Integration
+                                                </li>
+                                                <li class="pricing-list">
+                                                    <span class="fa fa-times"></span>
+                                                    Unlimited Download
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-button">
+                                        <a href="#" class="button">CHOOSE PLAN</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="one_third">
+                                <div class="pricing-table">                                
+                                    <div class="pricing-table-header">
+                                        <div class="pricing-table-title">ADVANCED</div>                                                
+                                    </div>
+                                    <div class="pricing-wrapper">                                       
+                                        <div class="pricing-table-price">$50</div>
+                                        <div class="pricing-table-desc">PER MONTH</div>
+                                        <div class="pricing-table-content-holder">  
+                                            <ul>
+                                                <li class="pricing-list">
+                                                    <span class="fa fa-check"></span>
+                                                    Unlimited Support
+                                                </li>
+                                                <li class="pricing-list">
+                                                    <span class="fa fa-check"></span>
+                                                    5GB Server Space
+                                                </li>
+                                                <li class="pricing-list">
+                                                    <span class="fa fa-check"></span>
+                                                    2 Users per Project
+                                                </li>
+                                                <li class="pricing-list">
+                                                    <span class="fa fa-check"></span>
+                                                    Email Integration
+                                                </li>
+                                                <li class="pricing-list">
+                                                    <span class="fa fa-times"></span>
+                                                    Unlimited Download
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-button">
+                                        <a href="#" class="button">CHOOSE PLAN</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="one_third last">
+                                <div class="pricing-table">                                
+                                    <div class="pricing-table-header">
+                                        <div class="pricing-table-title">EXPERT</div>                                                
+                                    </div>
+                                    <div class="pricing-wrapper">                                       
+                                        <div class="pricing-table-price">$75</div>
+                                        <div class="pricing-table-desc">PER MONTH</div>
+                                        <div class="pricing-table-content-holder">  
+                                            <ul>
+                                                <li class="pricing-list">
+                                                    <span class="fa fa-check"></span>
+                                                    Unlimited Support
+                                                </li>
+                                                <li class="pricing-list">
+                                                    <span class="fa fa-check"></span>
+                                                    5GB Server Space
+                                                </li>
+                                                <li class="pricing-list">
+                                                    <span class="fa fa-check"></span>
+                                                    2 Users per Project
+                                                </li>
+                                                <li class="pricing-list">
+                                                    <span class="fa fa-check"></span>
+                                                    Email Integration
+                                                </li>
+                                                <li class="pricing-list">
+                                                    <span class="fa fa-check"></span>
+                                                    Unlimited Download
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-button">
+                                        <a href="#" class="button">CHOOSE PLAN</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>                        
+                    </div>
+                </div> 
+
+                <!-- Contact Section -->
+                <div id="contact" class="section">                                 
+                    <div class="section-wrapper block content-1170 center-relative">                        
+
+                        <div class="page-title-holder">
+                            <p class="up-title-text">10</p>
+                            <h2 class="entry-title">CONTACT</h2>
+                            <p class="page-description">STAY IN TOUCH</p>                            
+                        </div>
+
+                        <div class="content-wrapper">
+
+                            <div class="one_fourth">
+                                <p>
+                                    Because that challenge is one that we are willing to accept one we are.
+                                </p>
+                                <br>
+                                <p>
+                                    Because they are hard, because that goal will serve to organize and measure the best of our energies and skills.
+                                </p>
+                            </div>
+
+                            <div class="one_fourth">
+                                <div class="info-code">
+                                    <p class="info-code-title">WEB</p>               
+                                    <p class="info-code-content">
+                                        <a href="https://cocobasic.com">www.cocobasic.com</a>
+                                    </p>
+                                </div>
+
+                                <div class="info-code">
+                                    <p class="info-code-title">ADDRESS</p>               
+                                    <p class="info-code-content">
+                                        <a href="https://www.google.rs/maps/place/New+York,+NY,+USA/@40.6971494,-74.2598655,10z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127753!4d-74.0059728" target="_blank">
+                                            New York, NY, United States
+                                        </a>
+                                    </p>
+                                </div>
+
+                                <div class="info-code">
+                                    <p class="info-code-title">PHONE</p>               
+                                    <p class="info-code-content">
+                                        <a href="tel:123456789">+123.456.789</a>
+                                    </p>
+                                </div>
+
+                                <div class="info-code">
+                                    <p class="info-code-title">HOURS</p>               
+                                    <p class="info-code-content">6:00 am – 2:00 am</p>
+                                </div>
+                            </div>
+
+                            <div class="one_half last">
+                                <div class="contact-form">
+                                    <p>
+                                        <input id="name" type="text" name="your-name" placeholder="NAME">
+                                    </p>
+                                    <p>
+                                        <input id="contact-email" type="email" name="your-email" placeholder="EMAIL">
+                                    </p>                                    
+                                    <p>
+                                        <input id="subject" type="text" name="your-subject" placeholder="SUBJECT">
+                                    </p>
+                                    <p>
+                                        <textarea id="message" name="your-message" placeholder="MESSAGE"></textarea>
+                                    </p>
+                                    <p class="contact-submit-holder">
+                                        <input type="submit" value="SEND">
+                                    </p>  
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>                        
+                    </div>
+                </div> 
             </div>
-            <!-- /.navbar-collapse -->
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="footer-content center-relative">
+
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="Meelo">
+                    </div>        
+
+                    <div class="footer-mail">                                
+                        <a href="mailto:hello@site.com">hello@cocobasic.com</a>               
+                    </div>
+
+                    <div class="footer-phone">            
+                        <a href="tel:123456789">+123.456.789</a>               
+                    </div>
+
+                    <div class="social-holder">
+                        <a href="#">
+                            <span class="fa fa-twitter"></span>
+                        </a>
+                        <a href="#">
+                            <span class="fa fa-facebook"></span>
+                        </a>
+                        <a href="#">
+                            <span class="fa fa-behance"></span>
+                        </a>
+                        <a href="#">
+                            <span class="fa fa-dribbble"></span>
+                        </a> 
+                    </div>
+
+                    <div class="copyright-holder">
+                        © 2019 Meelo HTML Template by <a href="https://cocobasic.com">CocoBasic</a>            
+                    </div>
+                </div>
+            </footer>
         </div>
-        <!-- /.container -->
-			</nav>
-</header>
-<!-- Hero Section
-====================================== -->
-<section id="slider" class="slider slider-1">
-	<!-- START REVOLUTION SLIDER 5.0 -->
-	<div class="rev_slider_wrapper">
-		<div id="slider1" class="rev_slider"  data-version="5.0">
-			<ul>
-				<!-- slide 1 -->
-				<li data-transition="slideleft"
-					data-slotamount="default"
-					data-easein="Power4.easeInOut"
-					data-easeout="Power4.easeInOut"
-					data-masterspeed="2000"
-					data-thumb="assets/images/sliders/thumb/1.jpg">
-					<!-- MAIN IMAGE -->
-					<img src="assets/images/sliders/slide-bg/hero.jpg" alt="Slide Background Image"  width="1920" height="1280">
-					<!-- LAYER NR. 1 -->
-					<div class="tp-caption"
- 				        data-x="['left','left','left','left']" data-hoffset="['-50','20','20','0']"
-                        data-y="['middle','middle','middle','middle']" data-voffset="['20','20','20','20']"
-						data-width="none"
-						data-height="none"
-                        data-whitespace="nowrap"
-                        data-transform_idle="o:1;"
-                        data-transform_in="x:[-155%];z:0;rX:0deg;rY:0deg;rZ:0deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;"
-                        data-transform_out="x:[-100%];s:3000;e:Power2.easeInOut;s:3000;e:Power2.easeInOut;"
-                        data-mask_in="x:50px;y:0px;s:inherit;e:inherit;"
-                        data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                        data-start="1000"
-						data-splitin="none"
-						data-responsive_offset="on">
-						<div class="slide-container"></div>
-					</div>
 
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption"
-				        data-x="['left','left','left','left']" data-hoffset="['50','50','50','20']"
-                        data-y="['middle','middle','middle','middle']" data-voffset="['-65','-65','-65','-60']"
-						data-fontsize="['65', '50', '40', '30']"
-						data-width="none"
-						data-height="none"
-                        data-transform_idle="o:1;"
-                        data-transform_in="x:[155%];z:0;rX:0deg;rY:0deg;rZ:0deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;"
-                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                        data-mask_in="x:50px;y:0px;s:inherit;e:inherit;"
-                        data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                        data-start="1250"
-						data-responsive_offset="on">
-						<div class="slide--headline">MDST</div>
-					</div>
-
-					<!-- LAYER NR. 3 -->
-					<div class="tp-caption"
-				        data-x="['left','left','left','left']" data-hoffset="['50','50','50','20']"
-                        data-y="['middle','middle','middle','middle']" data-voffset="['20','20','20','20']"
-						data-fontsize="['17', '17', '15', '13']"
-						data-width="none"
-						data-height="none"
-                        data-transform_idle="o:1;"
-                        data-transform_in="x:[-155%];z:0;rX:0deg;rY:0deg;rZ:0deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;"
-                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                        data-mask_in="x:50px;y:0px;s:inherit;e:inherit;"
-                        data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                        data-start="1500"
-						data-responsive_offset="on">
-						<div class="slide--bio"><p style="color:#FFFFFF"<p class="Gilroy-Regular">A design company in beautiful <br> Central California. We seek the truth <br>in all we do and collaborate <br> with clients to share their<br>meaningful stories through design.</p></div>
-					</div>
-
-					<!-- LAYER NR. 4 -->
-					<div class="tp-caption"
-				        data-x="['left','left','left','left']" data-hoffset="['50','50','50','20']"
-                        data-y="['middle','middle','middle','middle']" data-voffset="['110','100','120','120']"
-						data-width="none"
-						data-height="none"
-                        data-transform_idle="o:1;"
-                        data-transform_in="x:[155%];z:0;rX:0deg;rY:0deg;rZ:0deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;"
-                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                        data-mask_in="x:50px;y:0px;s:inherit;e:inherit;"
-                        data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                        data-start="1750"
-						data-responsive_offset="on"
-						>
-						<div class="slide-action">
-							<style: padding 10px>
-							<a class="btn btn-secondary btn-hover" href="about.html">Meet the team</a>
-						</div>
-					</div>
-
-
-</section>
-<!-- #hero end --><!-- About #5
-============================================= -->
-<section id="about5" class="about about-4 about-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-9">
-                <div class="heading heading-4 mb-70">
-                    <div class="subheading">Design with intent</div>
-                    <h2>We marry journalistic curiosity and beautiful design to bring rich brand and digital stories to life.</h2>
-                </div>
-            </div>
-            <!-- .col-lg-9 end -->
-        </div>
-        <div class="row">
-            <!-- About Panel #1 -->
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="about-panel">
-                    <div class="about-icon">
-                        <h6>Human<br>First</h6>
-                    </div>
-                    <div class="about-content">
-                        <p><p class="Gilroy-Regular">We believe good design becomes great when you take the time to look, listen and learn from the people you are designing for. Empathy, above all else, is our north star.</p>
-                        <div class="about-more">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- .col-lg-4 end -->
-
-            <!-- About Panel #2 -->
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="about-panel">
-                    <div class="about-icon">
-                        <h6>Take<br>Action</h6>
-                    </div>
-                    <div class="about-content">
-                        <p>We believe the best way to learn is by making something. We love prototyping and bringing life to a project as quickly as possible so we can learn as quickly as possible.  </p>
-                        <div class="about-more">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- .col-lg-4 end -->
-
-            <!-- About Panel #4 -->
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="about-panel">
-                    <div class="about-icon">
-                        <h6>Seek<br>Truth</h6>
-                    </div>
-                    <div class="about-content">
-                        <p>We believe the best strategies are backed by data and experience. We are relentless collectors of data who deliver projects with intent.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- .col-lg-4 end -->
-        </div>
-        <!-- .row end -->
-    </div>
-    <!-- .container end -->
-</section>
-<!-- #about5 end -->
-<!-- blog section -->
-<section id="heading2" class="heading heading-2 bg-gray">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12 col-md-12 col-lg-12">
-				<div class="subheading">Work</div>
-			</div><!-- .col-lg-12 end -->
-			<div class="col-sm-12 col-md-12 col-lg-4">
-				<h2>Made in the middle</h2>
-			</div>
-			<!-- .col-lg-4 end -->
-			<div class="col-sm-12 col-md-12 col-lg-6">
-				<p><p class="Gilroy-Regular" size: 18px><font color="gray">By putting people at the forefront of everything we do we create real-life measurable value not only for our partners, but for all stakeholders and users.</font>
-		</section>
-	<!-- .container end -->
-<!-- #heading2 end -->
-			<!-- Blog Grid 3 Columns
-			============================================= -->
-			<div id="blog-grid-3columns" class="blog blog-grid blog-grid-3columns bg-gray">
-					<div class="container">
-							<div class="row mb-25">
-								<!-- Post #1 -->
-								<div class="col-sm-12 col-md-12 col-lg-4">
-										<div class="entry text-left">
-												<div class="entry-featured">
-														<a href="portfolio-goldberg.html">
-																<img src="assets/images/blog/grid/2col/goldberg1.jpg" alt="entry title">
-														</a>
-												</div>
-												<!-- .entry-featured end -->
-																<div class="entry-title text-left">
-														<h3>
-																<a href="portfolio-goldberg.html"><font size="6">Designing new communication and data tools for dairies</font></a>
-														</h3>
-												</div>
-												<!-- .entry-title end -->
-												<div class="entry-meta text-left">
-													<br>
-														<h6>CASE STUDY</h6>
-														<p>Project Goldberg</a>
-
-												</div>
-												<!-- .entry-meta end -->
-										</div>
-										<!-- .entry end -->
-								</div><!-- .col-lg-4 end -->
-
-									<!-- Post #2 -->
-									<div class="col-sm-12 col-md-12 col-lg-4">
-											<div class="entry text-left">
-													<div class="entry-featured">
-															<a href="portfolio-tcfcu.html">
-																	<img src="assets/images/blog/grid/2col/showstring_thumb.png" alt="entry title">
-															</a>
-													</div>
-													<!-- .entry-featured end -->
-																	<div class="entry-title text-left">
-															<h3>
-																	<a href="portfolio-showstring.html"><font size="6">Redesigning an Ol' favorite for Western Milling</font></a>
-															</h3>
-													</div>
-													<!-- .entry-title end -->
-													<div class="entry-meta text-left">
-														<br>
-															<h6>CASE STUDY</h6>
-															<p>Western Milling</a>
-
-													</div>
-													<!-- .entry-meta end -->
-											</div>
-											<!-- .entry end -->
-									</div><!-- .col-lg-4 end -->
-
-									<!-- Post #3 -->
-									<div class="col-sm-12 col-md-12 col-lg-4">
-											<div class="entry text-left">
-													<div class="entry-featured">
-															<a href="portfolio-connect.html">
-																	<img src="assets/images/blog/grid/2col/connect-thumb.jpg" alt="entry title">
-															</a>
-													</div>
-													<!-- .entry-featured end -->
-																	<div class="entry-title text-left">
-															<h3>
-																	<a href="portfolio-connect.html"><font size="6">Designing identity and experience for the Connect Summit</font></a>
-															</h3>
-													</div>
-													<!-- .entry-title end -->
-													<div class="entry-meta text-left">
-														<br>
-															<h6>CASE STUDY</h6>
-															<p>VAS</a>
-
-													</div>
-													<!-- .entry-meta end -->
-											</div>
-											<!-- .entry end -->
-									</div><!-- .col-lg-4 end -->
-
-</div><!-- .row end -->
-</div>
-</div>
-<!-- .container end -->
-</section>
-
-
-<!-- Service #1
-============================================= -->
-<section id="service1" class="service service-1 bg white">
-    <div class="container">
-        <div class="row heading heading-2 mb-60">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-                <div class="subheading">Our portfolio areas</div>
-            </div>
-            <!-- .col-lg-12 end -->
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <h2>What We Do!</h2>
-            </div>
-            <!-- .col-lg-4 end -->
-            <div class="col-sm-12 col-md-12 col-lg-6">
-                <p><p style="size:18px;"><font color="gray">We balance feasiblity, viability and desireability and constantly look for the human insights that create breakthroughs. It's this balance — not a sudden light bulb — that produces the best ideas.</font></p>
-            </div>
-            <!-- .col-lg-6 end -->
-        </div>
-        <!-- .row end -->
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="service-panel">
-                    <div class="service-icon">
-                        <i class="fa fa-bolt "></i>
-                    </div>
-                    <div class="service-content">
-                        <h3>Branding & Design</h3>
-                        <p><p class="Gilroy-Regular">We are an ultra-collaborative team with a passion for making things. Our holistic approach to branding & design results in truly meaningful and beautiful outcomes.</p>
-
-                    </div>
-                </div>
-                <!-- .service-panel end -->
-            </div>
-            <!-- .col-lg-4 end -->
-
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="service-panel">
-                    <div class="service-icon">
-                        <i class="fa fa-comments-o"></i>
-                    </div>
-                    <div class="service-content">
-                        <h3>Service Design</h3>
-                        <p><p class="Gilroy-Regular">By putting people first, we help organizations innovate for and improve their relationships with the communities they serve. </p>
-                    </div>
-                </div>
-                <!-- .service-panel end -->
-            </div>
-            <!-- .col-lg-4 end -->
-
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="service-panel">
-                    <div class="service-icon">
-                        <i class="fa fa-code"></i>
-                    </div>
-                    <div class="service-content">
-                        <h3>Digital Experience Design</h3>
-                        <p><p class="Gilroy-Regular">Compelling design is not exclusive to what is visible. Our interactive solutions always involve a massive effort behind the scenes to build complex backend systems that perform reliably.</p>
-                    </div>
-                </div>
-                <!-- .service-panel end -->
-            </div>
-            <!-- .col-lg-4 end -->
-
-        </div>
-        <!-- .row end -->
-    </div>
-    <!-- .container end -->
-</section>
-<!-- #service1 end -->
-
-<!-- #testimonial start -->
-<section id="testimonial4" class="testimonial testimonial-4 bg-gray">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
-                <div class="carousel owl-carousel" data-slide="1" data-slide-rs="1" data-autoplay="false" data-nav="false" data-dots="false" data-space="0" data-loop="true" data-speed="100" data-slider-id="1">
-                    <div class="testimonial-panel">
-                        <div class="testimonial-content">
-                            <i class="quote fa fa-quote-left"></i>
-                            <p>Tom and Ryan have a sincere and honest passion to make their clients successful.  They allow you to take your crazy dreams and seemingly impossible ideas and turn them in to organized plans with meaningful impact.  Their many years of expertise are obvious in the way they have collaborated with our Credit Union, and have fostered a deep sense of trust that we look forward to growing through many years to come.
-
-</p>
-                        </div>
-                        <div class="testimonial-meta">
-                            <div class="author-name">Gina Ramos</div>
-                            <div class="author-job">VP Lending, Tulare County Federal Credit Union</div>
-                        </div>
-                    </div><!-- .testimonial-panel end -->
-                    <div class="testimonial-panel">
-                        <div class="testimonial-content">
-                            <i class="quote fa fa-quote-left"></i>
-                            <p>Middlestate has worked with our teams to create and transform our brands and routinely infuses new ideas that influence the way we communicate to our customers. They are a reliable team that has become an invaluable resource for everything from product branding, package design to marketing strategy and idea creation. </p>
-                        </div>
-                        <div class="testimonial-meta">
-                            <div class="author-name">Eric Brandenburg</div>
-                            <div class="author-job">Senior Vice President, Western Milling</div>
-                        </div>
-                    </div><!-- .testimonial-panel end -->
-                    <div class="testimonial-panel">
-                        <div class="testimonial-content">
-                            <i class="quote fa fa-quote-left"></i>
-                            <p>Tom and Ryan have embraced our organizational aspirations and used their innovative human-centered approach to strategically develop a roadmap to our dreams. They radiate a genuine passion for the work they do and have become part of the Credit Union family. Those partnerships are rare and priceless.</p>
-                        </div>
-                        <div class="testimonial-meta">
-                            <div class="author-name">Maribel Cano</div>
-                            <div class="author-job">Marketing Manager, Tulare County Federal Credit Union</div>
-                        </div>
-                    </div>
-                    <!-- .col-lg-8 end -->
-                </div>
-            </div>
-            <!-- .row end -->
-        </div>
-    </div>
-    <!-- .container end -->
-</section>
-<!-- #testimonial4 end -->
-<div class="clearfix mb-150"></div>
-
-
-<!-- Clients #1
-============================================= -->
-<section id="clients1" class="clients clients-1 bg-white pb-80">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-			<div  class="carousel owl-carousel carousel-dots" data-slide="6" data-slide-rs="2" data-autoplay="false" data-nav="false" data-dots="true" data-space="20" data-loop="true" data-speed="800">
-                    <!-- Client #1 -->
-                    <div class="client">
-                        <img src="assets/images/clients/gf-team-01.png" alt="client">
-                    </div>
-                    <!-- .client end -->
-                    <!-- Client #2 -->
-                    <div class="client">
-                        <img src="assets/images/clients/kp-team-01.png" alt="client">
-                    </div>
-                    <!-- .client end -->
-                    <!-- Client #3 -->
-                    <div class="client">
-                        <img src="assets/images/clients/pc-team-01.png" alt="client">
-                    </div>
-                    <!-- .client end -->
-                    <!-- Client #4 -->
-                    <div class="client">
-                        <img src="assets/images/clients/tcfcu-team-01.png" alt="client">
-                    </div>
-                    <!-- .client end -->
-                    <!-- Client #5 -->
-                    <div class="client">
-                        <img src="assets/images/clients/wm-team-01.png" alt="client">
-                    </div>
-                    <!-- .client end -->
-                    <!-- Client #6 -->
-                    <div class="client">
-                        <img src="assets/images/clients/vas-team-01.png" alt="client">
-                    </div>
-                    <!-- .client end -->
-                </div><!-- #clients end -->
-            </div><!-- .col-lg-12 end -->
-        </div>
-        <!-- .row end -->
-    </div>
-    <!-- .container end -->
-</section>
-<!-- #clients1 end -->
-
-<!-- Footer #1
-============================================= -->
-<footer id="footer" class="footer footer-1">
-    <div class="footer-container">
-        <!-- Widget Section
-	============================================= -->
-        <div class="footer-widget">
-            <div class="widget-container">
-                <div class="info">
-                    <h3>Stay Connected With Us!</h3>
-                    <ul class="list-inline">
-                        <li><a href="https://www.instagram.com/mdst_design">instgram</a></li>
-                        <li><a href="https://www.twitter.com/mdst_design">twitter</a></li>
-                    </ul>
-                </div>
-                <div class="subscription">
-                    <form class="mailchimp">
-                        <div class="input-group">
-                            <input type="email" class="form-control" <p style="color:#FFFFFF" placeholder="Subscribe to the Lede">
-                            <span class="input-group-btn">
-                                <button class="btn" type="submit">Sign Up</button>
-                            </span>
-                        </div><!-- /input-group -->
-                    </form>
-                    <div class="subscribe-alert"></div>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-        </div><!-- .footer-widget end -->
-        <!-- Logo Widget
-	============================================= -->
-        <div class="footer-logo">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12">
-                        <div class="text-center">
-                            <img src="assets/images/logo/logo-light-footer.png" alt="logo">
-                        </div>
-                    </div>
-                </div>
-            </div><!-- .container end -->
-        </div><!-- .footer-copyright end -->
-
-        <!-- Info Widget
-	============================================= -->
-        <div class="footer-info-widget">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-3">
-                        <div class="contact-info">
-                            <p>Email Us : hello@middlestate.com</p>
-                            <p>Call Us : 559 798 6510</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-12 col-lg-6">
-                        <div class="bio-info text-center">
-                            <p>Middlestate is a design company in beautiful Central California.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-12 col-lg-3">
-                        <div class="copyright-info text-right">
-                            <p>&copy; 2019 Middlestate, LLC.</p>
-                        </div>
-                    </div>
-                </div><!-- .row end -->
-            </div><!-- .container end -->
-        </div><!-- .footer-copyright end -->
-			</div>
-
-    </div><!-- .footer-container end -->
-</footer>
- </div><!-- #wrapper end -->
-<div class="hamburger-panel">
-
-	<div class="hamburger-logo">
-		<a href="#">
-			<img src="assets/images/logo/logo-white.png" alt="log">
-		</a>
-	</div>
- 	<ul class="list-unstyled list-links">
-		<li><a class="active" href="#">Home</a></li>
-		<li><a href="#">about</a></li>
-		<li><a href="#">portfolio</a></li>
-		<li><a href="#">services</a></li>
-		<li><a href="#">features</a></li>
-		<li><a href="#">Blog</a></li>
-		<li><a href="#">Contact</a></li>
-	</ul>
-	<div class="social-share">
-		<a href="#"><i class="fa fa-twitter"></i></a>
-		<a href="#"><i class="fa fa-instagram"></i></a>
-		<a href="#"><i class="fa fa-behance"></i></a>
-	</div>
-
-	<div class="copywright">
-		<p>© 2018 Middlestate. All Rights Reserved</p>
-	</div>
-
- </div><!-- Footer Scripts
-============================================= -->
-<script src="assets/js/jquery-3.3.1.min.js"></script>
-<script src="assets/js/plugins.js"></script>
-<script src="assets/js/functions.js"></script>
-<!-- RS5.0 Core JS Files -->
-<script src="assets/revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
-<script src="assets/revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-<!-- RS Configration JS Files -->
-<script src="assets/js/rsconfig.js"></script>
-</body>
+        <!--Load JavaScript-->
+        <script src="js/jquery.js"></script>			                                       
+        <script src="js/jquery.sticky.js"></script>			                                               
+        <script src='js/imagesloaded.pkgd.js'></script>                
+        <script src='js/jquery.fitvids.js'></script>                
+        <script src='js/jquery.smartmenus.min.js'></script>                                 
+        <script src='js/isotope.pkgd.js'></script>                                                 
+        <script src='js/owl.carousel.min.js'></script>                                                         
+        <script src='js/main.js'></script>
+    </body>
 </html>
